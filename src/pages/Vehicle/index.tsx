@@ -1,10 +1,9 @@
-import { HomeContainer, TitleContainer, Wrapper } from "./styles";
+import { HomeContainer, Wrapper } from "./styles";
 import {useNavigate} from 'react-router-dom';
-import { Button } from "../../components/Button";
 import { Menu } from "../../components/Menu";
 
 
-export function Home() {
+export function Vehicle() {
   const navigate = useNavigate();
 
   const navigateToContacts = () => {
@@ -15,9 +14,7 @@ export function Home() {
         <HomeContainer>
           <Menu/>
           <Wrapper>
-            <TitleContainer>
-              <h1>ESTACIONAMENTO 01</h1>
-            </TitleContainer>
+            <h1>VEHICLES 01</h1>
           </Wrapper>
         </HomeContainer>
     )

@@ -27,18 +27,3 @@ export const Wrapper = styled.div`
   flex-direction: column;
   
 `
-export const TitleContainer = styled.div`
-  width: 90%;
-
-  margin: 40px;
-
-  display: flex;
-  justify-content: start;
-
-  font-weight: 200;
-
-  font-size: 12px;
-
-
-  color: #000;
-`

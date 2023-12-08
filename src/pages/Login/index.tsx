@@ -8,8 +8,8 @@ import { useNavigate} from 'react-router-dom';
 export function Login() {
   const navigate = useNavigate();
 
-  const navigateToContacts = () => {
-    navigate('/teste');
+  const navigateToHome = () => {
+    navigate('/home');
   };
 
     return (
@@ -18,7 +18,7 @@ export function Login() {
             <Logo src={ImgLogo}/>
             <Input title="USUÁRIO"></Input>
             <Input title="SENHA"></Input>
-            <Button title="LOGIN" functionClick={navigateToContacts}></Button>
+            <Button title="LOGIN" functionClick={navigateToHome}></Button>
           </Wrapper>
         </LoginContainer>
     )

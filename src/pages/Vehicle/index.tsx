@@ -1,6 +1,7 @@
-import { HomeContainer, Wrapper } from "./styles";
+import { CircleButton, HomeContainer, TitleContainer, Wrapper } from "./styles";
 import {useNavigate} from 'react-router-dom';
 import { Menu } from "../../components/Menu";
+import { Table } from "../../components/Table";
 
 
 export function Vehicle() {
@@ -14,7 +15,10 @@ export function Vehicle() {
         <HomeContainer>
           <Menu/>
           <Wrapper>
-            <h1>VEHICLES 01</h1>
+            <TitleContainer>
+              <h1>TODOS OS VEICULOS</h1>
+              <CircleButton> +</CircleButton>
+            </TitleContainer>
           </Wrapper>
         </HomeContainer>
     )

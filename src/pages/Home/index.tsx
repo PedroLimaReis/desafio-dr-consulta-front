@@ -1,7 +1,7 @@
-import { HomeContainer, TitleContainer, Wrapper } from "./styles";
+import { CircleButton, HomeContainer, TitleContainer, Wrapper } from "./styles";
 import {useNavigate} from 'react-router-dom';
-import { Button } from "../../components/Button";
 import { Menu } from "../../components/Menu";
+import { Table } from "../../components/Table";
 
 
 export function Home() {
@@ -16,8 +16,10 @@ export function Home() {
           <Menu/>
           <Wrapper>
             <TitleContainer>
-              <h1>ESTACIONAMENTO 01</h1>
+              <h1>ESTABELECIMENTO 01 - CNPJ: 00.000.000/0001-00</h1>
+              <CircleButton> +</CircleButton>
             </TitleContainer>
+            <Table/>
           </Wrapper>
         </HomeContainer>
     )

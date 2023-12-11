@@ -2,7 +2,7 @@ import { ButtonStyle } from "./styles";
 
 interface props {
   title: string
-  functionClick: () => void
+  functionClick?: () => void
 }
 
 export function Button({title , functionClick}:props) {

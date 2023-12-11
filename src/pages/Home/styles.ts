@@ -33,7 +33,7 @@ export const TitleContainer = styled.div`
   margin: 40px;
 
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 
   font-weight: 200;
 
@@ -41,4 +41,21 @@ export const TitleContainer = styled.div`
 
 
   color: #000;
+`
+
+export const CircleButton = styled.button`
+
+  display: flex;
+
+  background-color: #68c151;
+  
+  color: #fff;
+
+  font-size: 18px;
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 8px 12px 8px 12px;
+
 `

@@ -27,3 +27,35 @@ export const Wrapper = styled.div`
   flex-direction: column;
   
 `
+export const TitleContainer = styled.div`
+  width: 90%;
+
+  margin: 40px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 200;
+
+  font-size: 12px;
+
+
+  color: #000;
+`
+
+export const CircleButton = styled.button`
+
+  display: flex;
+
+  background-color: #68c151;
+  
+  color: #fff;
+
+  font-size: 18px;
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 8px 12px 8px 12px;
+
+`

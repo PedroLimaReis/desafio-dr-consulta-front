@@ -1,5 +1,4 @@
-import { Button } from "../Button";
-import { InitTable, TbodyStyle, TdStyle, TextSpan, TextTitle, ThStyle, TheadStyle, TrRowStyle, TrStyle } from "./styles";
+import { ButtonStyle, InitTable, TbodyStyle, TdStyle, TextSpan, TextTitle, ThStyle, TheadStyle, TrRowStyle, TrStyle } from "./styles";
 
 export function Table() {
 
@@ -16,28 +15,28 @@ export function Table() {
           <TbodyStyle>
               <TrRowStyle>
                 <TdStyle><TextSpan>FIAT - Pulse - Preto - HPB-9637 - Carro</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 08:00</TextSpan></TdStyle>
-                <TdStyle><Button title="Fazer CheckOut">stock</Button></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:09</TextSpan></TdStyle>
+                <TdStyle><ButtonStyle title="Fazer CheckOut">Check-Out</ButtonStyle></TdStyle>
               </TrRowStyle>
               <TrRowStyle>
                 <TdStyle><TextSpan>Volkswagen - Gol - Preto - MTC-9253 - Carro</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 08:32</TextSpan></TdStyle>
-                <TdStyle><Button title="Fazer CheckOut">stock</Button></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:09</TextSpan></TdStyle>
+                <TdStyle><ButtonStyle title="Fazer CheckOut">Check-Out</ButtonStyle></TdStyle>
               </TrRowStyle>
               <TrRowStyle>
-                <TdStyle><TextSpan>Honda - Argo - Twister - JSG-6788 - Moto</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 08:55</TextSpan></TdStyle>
-                <TdStyle><Button title="Fazer CheckOut">stock</Button></TdStyle>
+                <TdStyle><TextSpan>Honda - Twister - Preto - JSG-6788 - Moto</TextSpan></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:09</TextSpan></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:10</TextSpan></TdStyle>
               </TrRowStyle>
               <TrRowStyle>
                 <TdStyle><TextSpan>FIAT - Cronos - Branco - JSG-1234 - Carro</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 09:12</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 09:30</TextSpan></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:09</TextSpan></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:10</TextSpan></TdStyle>
               </TrRowStyle>
               <TrRowStyle>
                 <TdStyle><TextSpan>Suzuki - GSX-8R - Preto - JSG-3456 - Moto</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 09:15</TextSpan></TdStyle>
-                <TdStyle><TextSpan>09/12/2023 - 15:15</TextSpan></TdStyle>
+                <TdStyle><TextSpan>11/12/2023 - 15:09</TextSpan></TdStyle>
+                <TdStyle><ButtonStyle title="Fazer CheckOut">Check-Out</ButtonStyle></TdStyle>
               </TrRowStyle>
           </TbodyStyle>
         </InitTable>

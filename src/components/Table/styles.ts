@@ -8,6 +8,26 @@ export const InitTable = styled.table`
   flex-direction: column;
 `
 
+export const ButtonStyle = styled.button`
+  width: 40%;
+  height: 24px;
+
+  margin: 32px;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #68c151;
+  border-width: 0.5;
+  border-color: #fff;
+  border-radius: 6px;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  
+`
+
 // ------------------------------------------------------------
 
 export const TheadStyle = styled.thead`
@@ -58,6 +78,8 @@ export const TdStyle = styled.table`
   background-color: #fff;
   
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   border: 1.5px solid #000;
 
@@ -66,7 +88,7 @@ export const TdStyle = styled.table`
 // ------------------------------------------------------------
 
 export const TextTitle = styled.span`
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 
   padding: 10px;
@@ -79,7 +101,7 @@ export const TextTitle = styled.span`
 `
 
 export const TextSpan = styled.span`
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 
   padding: 6px;

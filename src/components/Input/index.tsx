@@ -1,18 +1,16 @@
 import { InputStyle, TitleInputStyle } from "./styles";
 
-interface props {
-  title: string
+interface InputProps extends React.InputHTMLAttributes<HTMLInputElement>{
+  title: string;
 }
 
 
-export function Input({title}: props) {
+export function Input({ title, ref, ...props }: InputProps) {
 
     return (
       <>
         <TitleInputStyle>{title}</TitleInputStyle>
-        <InputStyle>
-        </InputStyle>
-
+        <InputStyle ref={ref} {...props} />
       </>
     )
 }

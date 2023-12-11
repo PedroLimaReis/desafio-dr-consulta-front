@@ -6,12 +6,14 @@ import { Login } from "./pages/Login"
 import { Vehicle } from "./pages/Vehicle";
 import { GlobalSyle } from "./styles/global"
 
+import {UserProvider } from './contexts/user';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export function App() {
 
   return (
-    <>
+    <UserProvider>
       <GlobalSyle />
       <BrowserRouter>
         <Routes>
@@ -21,7 +23,7 @@ export function App() {
           <Route path="/vehicles" element={<Vehicle/>} />
         </Routes>
       </BrowserRouter>
-    </>
+    </UserProvider>
   )
 }
 

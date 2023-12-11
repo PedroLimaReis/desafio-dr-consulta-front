@@ -25,6 +25,7 @@ export const Wrapper = styled.div`
 
   border-radius: 4px;
   flex-direction: column;
+  overflow-y: auto;
   
 `
 export const TitleContainer = styled.div`
